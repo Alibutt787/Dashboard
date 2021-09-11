@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+    integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+   
+  <title>Document</title>
+</head>
+<style>
+  span {
+    font-size: 30px;
+  }
+
+  .kilo {
+    font-size: 12px;
+    font-weight: bolder;
+  }
+  .first,.second{
+    position: relative;
+  }
+  .circle1{
+    width: 15px;
+    height: 15px;
+    background: rgb(0, 0, 0);
+    border-radius: 50%;
+    position: absolute;
+    bottom: -5px;
+    left: 50px;
+    
+  }
+ 
+  .circle2{
+    width: 15px;
+    height: 15px;
+    background: rgb(224, 34, 9);
+    border-radius: 50%;
+    position: absolute;
+    top: -5px;
+    left: 50px;
+    
+  }
+
+  .circle1::before{
+    color: rgb(0, 0, 0);
+    
+  font-weight: bolder;
+  content: "• • • • •"; /* Insert content that looks like bullets */
+  
+  
+    
+  }
+
+</style>
+
+<body>
+  <div class="container text-center  ">
+
+    <div class="row   p-5 justify-content-center  align-items-center ">
+    
+      <section1 class="col-md-4  bg-info p-5 rounded">
+
+        <div class=""> <img class="rounded-circle bg-danger" src="./public/favicon.ico" alt="hahah" width="150px"
+            height="150px"> </div>
+
+        <h4>Aqib Ali Butt</h4>
+        <h6>Junior  Developer</h6>
+        <br />
+        <h5>Contact Details Infomaton</h5>
+        <h5>+923314113737</h5>
+        <h6>alibhatbhat7867@gmail.com</h6>
+        <br />
+        <h6>Rate the Driver</h6>
+        <div>
+         
+          <i class="fas fa-star"style="color: yellow;"></i>   
+<i class="fas fa-star"style="color: yellow;"></i>   
+<i class="fas fa-star"style="color: yellow;"></i>   
+    <i class="far fa-star"></i>
+    <i class="far fa-star"></i>
+    <i class="far fa-star"></i>
+          
+        </div>
+
+      </section1>
+      <section2 class="col-md-4   rounded ml-4">
+        <div class="d-flex justify-content-between">
+          <h4 class="">Total Fare : </h4> <span>$100</span>
+        </div>
+        <br />
+        <div class="text-start">
+          <div class="d-flex justify-content-between first">
+            <div class="bg-warning p-3 rounded ">
+              <p>Oct,21,2016</p>
+              <h5>11:36am</h5>
+              <div class="circle1"></div>
+            </div>
+            <div class="pl-5 text-left">Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+            </div>
+          </div>
+          <br />
+          <br /> <br />
+        
+          <div class="d-flex justify-content-between second">
+            <div class="bg-warning p-3  rounded ">
+              <p>Oct,21,2016</p>
+              <h5>11:36am</h5>
+              <div class="circle2"></div>
+            </div>
+            <div class="pl-5  text-left">Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+            </div>
+          </div>
+        </div>
+
+        <br />
+        <br />
+        
+        <div class="kilo d-flex justify-content-around  bg-warning rounded p-3">
+          <div>
+            <p>7.87</p>
+            <p>Kilometer</p>
+          </div>
+          <div>
+            <p>00:38:23</p>
+            <p>Trip time</p>
+          </div>
+          <div>
+            <p>uberPOOL</p>
+            <p>Vehicle</p>
+          </div>
+        </div>
+
+
+      </section2>
+     
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+      integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+      crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+      integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+      crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+      integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+      crossorigin="anonymous"></script>
+</body>
+
+</html>
+
